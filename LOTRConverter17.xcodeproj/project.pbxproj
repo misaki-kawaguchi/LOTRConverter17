@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		145D2D932BBE349600B6A01F /* IconGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D2D922BBE349600B6A01F /* IconGrid.swift */; };
 		147C4A0A2BB647B300EC4872 /* LOTRConverter17App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147C4A092BB647B300EC4872 /* LOTRConverter17App.swift */; };
 		147C4A0C2BB647B300EC4872 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147C4A0B2BB647B300EC4872 /* ContentView.swift */; };
 		147C4A0E2BB647B600EC4872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147C4A0D2BB647B600EC4872 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		145D2D922BBE349600B6A01F /* IconGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconGrid.swift; sourceTree = "<group>"; };
 		147C4A062BB647B300EC4872 /* LOTRConverter17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOTRConverter17.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		147C4A092BB647B300EC4872 /* LOTRConverter17App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOTRConverter17App.swift; sourceTree = "<group>"; };
 		147C4A0B2BB647B300EC4872 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				14C1DDF72BBCEB4700685DD0 /* Currency.swift */,
 				147C4A0B2BB647B300EC4872 /* ContentView.swift */,
 				14C1DDF32BBCD86600685DD0 /* SelectCurrency.swift */,
+				145D2D922BBE349600B6A01F /* IconGrid.swift */,
 				14C1DDF52BBCDB9500685DD0 /* CurrencyIcon.swift */,
 				14E8CE742BBB943D00E8D95E /* ExchangeInfo.swift */,
 				14E8CE762BBB9C2200E8D95E /* ExchangeRate.swift */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				145D2D932BBE349600B6A01F /* IconGrid.swift in Sources */,
 				14E8CE772BBB9C2200E8D95E /* ExchangeRate.swift in Sources */,
 				14C1DDF42BBCD86600685DD0 /* SelectCurrency.swift in Sources */,
 				14E8CE752BBB943D00E8D95E /* ExchangeInfo.swift in Sources */,
