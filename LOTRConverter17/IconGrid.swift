@@ -28,6 +28,7 @@ struct IconGrid: View {
                     )
                     .onTapGesture {
                         self.currency = currency
+                        print("IconGrid currency property: \(self.currency)")
                     }
                 }
                 
