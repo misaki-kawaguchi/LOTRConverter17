@@ -95,6 +95,9 @@ struct ContentView: View {
                         TextField("Amount", text: $rightAmount)
                             .textFieldStyle(.roundedBorder)
                             .multilineTextAlignment(.trailing)
+                            .onChange(of: rightAmount) {
+                                leftAmount = rightCurrency.convert(rightAmount, to: leftCurrency)
+                            }
                     }
                 }
                 .padding()
