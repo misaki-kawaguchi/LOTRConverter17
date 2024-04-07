@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143CF24C2BC2283000C9A3D5 /* CurrencyTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143CF24B2BC2283000C9A3D5 /* CurrencyTip.swift */; };
 		145D2D932BBE349600B6A01F /* IconGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D2D922BBE349600B6A01F /* IconGrid.swift */; };
 		147C4A0A2BB647B300EC4872 /* LOTRConverter17App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147C4A092BB647B300EC4872 /* LOTRConverter17App.swift */; };
 		147C4A0C2BB647B300EC4872 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147C4A0B2BB647B300EC4872 /* ContentView.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		143CF24B2BC2283000C9A3D5 /* CurrencyTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTip.swift; sourceTree = "<group>"; };
 		145D2D922BBE349600B6A01F /* IconGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconGrid.swift; sourceTree = "<group>"; };
 		147C4A062BB647B300EC4872 /* LOTRConverter17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOTRConverter17.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		147C4A092BB647B300EC4872 /* LOTRConverter17App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOTRConverter17App.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				14C1DDF52BBCDB9500685DD0 /* CurrencyIcon.swift */,
 				14E8CE742BBB943D00E8D95E /* ExchangeInfo.swift */,
 				14E8CE762BBB9C2200E8D95E /* ExchangeRate.swift */,
+				143CF24B2BC2283000C9A3D5 /* CurrencyTip.swift */,
 				147C4A0D2BB647B600EC4872 /* Assets.xcassets */,
 				147C4A0F2BB647B600EC4872 /* Preview Content */,
 			);
@@ -160,6 +163,7 @@
 				14C1DDF42BBCD86600685DD0 /* SelectCurrency.swift in Sources */,
 				14E8CE752BBB943D00E8D95E /* ExchangeInfo.swift in Sources */,
 				147C4A0C2BB647B300EC4872 /* ContentView.swift in Sources */,
+				143CF24C2BC2283000C9A3D5 /* CurrencyTip.swift in Sources */,
 				147C4A0A2BB647B300EC4872 /* LOTRConverter17App.swift in Sources */,
 				14C1DDF82BBCEB4700685DD0 /* Currency.swift in Sources */,
 				14C1DDF62BBCDB9500685DD0 /* CurrencyIcon.swift in Sources */,
